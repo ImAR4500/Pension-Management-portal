@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/Siddu-Pension-TD:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/pensionmanagementportalservice:1"
         LoadBalancerInfo:
-          ContainerName: "siddu-jwt"
+          ContainerName: "pensionmanagementportalservice"
           ContainerPort: "9085"
         PlatformVersion: "LATEST"
