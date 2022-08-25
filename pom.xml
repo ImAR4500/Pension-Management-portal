@@ -177,7 +177,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>pmanagementportalapp</finalName>
+		<finalName>pensionmanagementportalservice</finalName>
 	</build>
 
 </project>
